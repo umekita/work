@@ -1,0 +1,4 @@
+(実習) ActionBarSherlock を参照する実習用プロジェクトで OptionsMenu を扱った場合の、OptionsMenu の表示のされ方の違いを、エミュレータを用いて、画面の大きさを元に考察してレポートに記述してください
+
+240x432や480x800だとAction Overflowが表示されずエミュレータのmenuボタンを押した場合に画面下部にOptionsMenuが表示された
+720x1280だとAction Overflowが表示されたのでそれを押すと画面上部にOptionsMenuが表示された
