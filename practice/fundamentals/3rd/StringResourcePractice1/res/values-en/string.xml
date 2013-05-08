@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="example_1">example 1</string>
+    <string name="example_2">example 2</string>
+    <string name="example_3">example 3</string>
+    <string name="example_4">example 4</string>
+    <string name="example_5">example 5</string>
+
+</resources>

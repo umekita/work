@@ -2,9 +2,10 @@
 package jp.mixi.practice.intent.beg;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+import jp.mixi.practice.intent.beg.NewActivity1;
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,9 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO ここに、NewActivity1 を呼び出す処理を書く
-                
+            	Intent intent = new Intent(MainActivity.this, NewActivity1.class);
+            	intent.setAction(Intent.ACTION_VIEW);
+            	MainActivity.this.startActivity(intent);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {

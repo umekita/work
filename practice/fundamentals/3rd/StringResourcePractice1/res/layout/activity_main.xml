@@ -9,9 +9,42 @@
     tools:context=".MainActivity" >
 
     <!-- TODO: つくった String リソースを利用した TextView を配置していく -->
+
     <TextView
+        android:id="@+id/hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/example_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:text="@string/example_1" />
+    <TextView
+        android:id="@+id/example_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/example_1"
+        android:text="@string/example_2" />
+    <TextView
+        android:id="@+id/example_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/example_2"
+        android:text="@string/example_3" />
+    <TextView
+        android:id="@+id/example_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/example_3"
+        android:text="@string/example_4" />
+    <TextView
+        android:id="@+id/example_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/example_4"
+        android:text="@string/example_5" />
 
 </RelativeLayout>
